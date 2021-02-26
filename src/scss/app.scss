@@ -46,7 +46,7 @@ ul {
 // Menu topbar
 .topnav {
     overflow: hidden;
-    background-color: #142756;
+    background-color: #1f3766;
     height: 90px;
 }
 
@@ -75,7 +75,7 @@ ul {
         background-color: #244f90;
     }
     &.active {
-        background-color: #f1c51b;
+        background-color: #f5c800;
         color: #244f90;
     }
     &.image {
@@ -84,7 +84,7 @@ ul {
 }
 
 .topnav a:hover {
-    background-color: #f1c51b;
+    background-color: #f5c800;
     color: #244f90;
 }
 
@@ -106,7 +106,7 @@ ul {
 }
 // Footer
 .footer {
-    background: #142756;
+    background: #1f3766;
     padding: 100px 0px 100px 0px;
     display: table;
     margin: 0 auto;
@@ -163,7 +163,7 @@ ul {
                         padding: 10px;
                     }
                     &:hover {
-                        color: #f7bd00;
+                        color: #f5c800;
                     }
                 }
                 input {
@@ -183,7 +183,7 @@ ul {
             .submit-newsletter {
                 text-transform: uppercase;
                 padding: 5px;
-                color: #142756;
+                color: #1f3766;
                 display: flex;
                 align-items: center;
                 justify-content: left;
@@ -207,7 +207,7 @@ ul {
                 font-family: "Ubuntu", sans-serif;
                 font-weight: 700;
                 font-size: 1.2em;
-                color: #f1c51b;
+                color: #f5c800;
                 text-transform: uppercase;
             }
         }
@@ -222,9 +222,12 @@ ul {
             transform: translate(-50%, -130%);
         }
     }
+    .margin-top {
+        margin-top: 40px;
+    }
 }
 .sub-footer {
-    background: #142756;
+    background: #1f3766;
     padding: 5px 0px;
     text-align: left;
     color: gray;

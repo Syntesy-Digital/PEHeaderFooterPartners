@@ -188,6 +188,8 @@ ul {
                 align-items: center;
                 justify-content: left;
                 position: relative;
+                width: min-content;
+
                 img {
                     position: relative;
                 }
@@ -337,17 +339,15 @@ ul {
                 .submit-newsletter {
                     display: block;
                     margin: 0 auto;
+                    span {
+                        // left: 47%;
+                        left: 10px;
+                        /* width: 100%; */
+                        right: -10px;
+                    }
                 }
                 .margin-top {
                     margin-top: 40px;
-                }
-            }
-            .submit-newsletter {
-                span {
-                    // left: 47%;
-                    left: 0;
-                    /* width: 100%; */
-                    right: -10px;
                 }
             }
         }

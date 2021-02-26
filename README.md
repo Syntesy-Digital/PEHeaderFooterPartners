@@ -1,5 +1,3 @@
-![Imagen de cabecera Bootstrap + Sass + Webpack](https://repository-images.githubusercontent.com/241963852/02a9dc00-5955-11ea-9e47-506b9d2fa5bf "Imagen de cabecera Bootstrap + Sass + Webpack")
-
 # Bootstrap + Sass + Webpack
 🚀 Plantilla para iniciar proyectos basados en estas herramientas | Bootstrap + Sass + Webpack (SPA, MPA)
 
@@ -13,12 +11,10 @@ Puedes ver esta versión 'live' en **Vercel** aquí:
 - Disponibles los iconos de **FontAwesome**.
 - Fuente cargada de **Google Fonts**
 
-![bootstrap-webpack-badiali](https://user-images.githubusercontent.com/8589135/88863847-1ad39f00-d204-11ea-97d0-a452b226672a.gif)
 
 ## Instalación
 
-1. Clonar el repositorio: `git clone https://github.com/badiali/bootstrap-sass-webpack.git`
-2. `npm install`
+1. `npm install`
 
 ## Una vez instalado
 

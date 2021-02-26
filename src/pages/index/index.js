@@ -1,2 +1,5 @@
 import '../../app'
 import './index.scss'
+import './../../assets/img/pe-logo.png'
+import './../../assets/img/pe-carre.png'
+import './../../assets/img/pe-btn.png'

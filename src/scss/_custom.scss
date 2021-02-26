@@ -4,27 +4,27 @@
  * 2. Font Awesome
  */
 
- // 1. Bootstrap
- $grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-); 
+// 1. Bootstrap
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+);
 $container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px,
 );
 $enable-gradients: true;
 $enable-responsive-font-sizes: true;
-$primary: rgb(32,50,72);
-$secondary: rgb(135,211,158);
+$primary: rgb(32, 50, 72);
+$secondary: #333333;
 
 // 2. Font Awesome
-$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
-$fa-font-display: swap!important;
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+$fa-font-display: swap !important;

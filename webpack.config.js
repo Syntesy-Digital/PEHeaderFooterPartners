@@ -9,7 +9,6 @@ module.exports = {
   entry: {
     app: './src/app.js',
     index: './src/pages/index/index.js',
-    contact: './src/pages/contact/contact.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -100,7 +99,9 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: '[name].[ext]',
-              outputPath: 'assets/images/'
+              publicPath: 'assets',
+              outputPath: 'assets/img',
+              esModule: false
             }
           }
         ]
@@ -117,15 +118,6 @@ module.exports = {
       filename: 'index.html',
       template: './src/pages/index/index.html',
       chunks: ['app','index']
-    }),
-    new HtmlWebpackPlugin({
-      favicon: './src/favicon.ico',
-      minify: {
-        collapseWhitespace: true
-      },
-      filename: 'contacto.html',
-      template: './src/pages/contact/contact.html',
-      chunks: ['app','contact']
     }),
     new MiniCssExtractPlugin({
       filename: 'assets/css/[name].[hash:8].css'

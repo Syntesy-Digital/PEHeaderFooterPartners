@@ -2,11 +2,12 @@
 @import "../../scss/app";
 
 // Estilos del index.html
-body { color: $white; }
-p { color: $secondary; }
+p {
+    color: $secondary;
+}
 a {
-  color: $secondary;
-  &:hover {
-    color: darken($secondary, 15%);
-  }
+    color: $secondary;
+    &:hover {
+        color: darken($secondary, 15%);
+    }
 }
